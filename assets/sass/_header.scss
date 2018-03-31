@@ -1,0 +1,92 @@
+
+html,
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    z-index: 999;
+    .logo{
+        text-align: center;
+        font-family: "Brush Script MT", cursive;
+        font-size: 30px;
+        font-weight: 700;
+       
+            a{
+                text-decoration-line: none;
+                color:#3DC3B6;
+            }
+    }
+
+   .searchBox{
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        display: flex;
+            #search{
+                width: 90%;
+                border: none;
+                outline: none;
+              
+            }
+            .searchButton{
+                border: none;
+                background: transparent;
+                outline: none;
+                font-size: 21px;
+                color: grey;
+               
+            }
+   }
+    .cartBox{
+        text-align: center;
+            .cart{
+                font-size: 30px;
+                color: #39B9AC;
+                cursor: pointer;
+            }
+            .shopMoney{
+                font-weight:600;
+                color: #A1A1A1;
+                font-size: 24px;
+                letter-spacing: -2px;
+            }
+    }
+    @media  screen and (max-width: 991px) {
+        .navbar-light{
+                min-height: 40px!important;
+                .navbar-toggler{
+                    outline: none;
+                  
+                }
+        }
+    }
+    @media  screen and (min-width: 991px) {
+        .navbar-light{
+                height: 40px!important;
+        }
+    }
+           .navbar-light{
+               background: #4CCFC1!important;
+               margin-top: 10px;
+          
+               
+            .center{
+                margin: 0 auto!important;
+                .nav-link{
+                    color: white!important;
+                    .divide{
+                        margin-left: 10px;
+                        color: white;
+                           
+                        }
+                    }
+            }
+           
+            @media  screen and (max-width: 1104px) {
+                .divide{
+                    display: none;
+                }
+            }
+        }
+}

@@ -1,0 +1,247 @@
+
+#main{
+    padding-top: 50px;
+    overflow: hidden;
+   
+            .section1{
+                overflow: hidden;
+                width: 100%;
+                height: 450px;
+               background: #3ABFB3;
+                        
+            .carousel-inner{
+                overflow: visible!important;
+            
+            }
+                        
+        .infoBox{
+            max-width: 330px;
+            margin: 0 auto;
+           padding-top: 50px;
+        
+                .title{
+                 
+                    color: white;
+                    font-size: 43px;
+                    line-height: 45px;
+                }
+        .info{
+            color: white;
+            line-height: 30px;
+            margin-left: 3px;
+        }
+        .button{
+            transition-duration: 0.5s;
+            margin-top: 20px;
+          color: white;
+          border-color:white;
+          background: #3ABFB3;
+          border: 2px solid;
+          border-radius: 5px;
+          margin-left: 5px;
+         
+        }
+
+    }
+    .caruselControl{
+        position: absolute;
+         bottom: -100px;
+     
+      
+          
+                }
+           
+            }
+
+
+            //.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>section 2
+            .section2{
+              
+            #carousel{
+     
+                // width: 357px;
+                overflow: hidden;
+                min-height: 240px;
+                position: relative;
+                width: 100%;
+              
+               
+            }
+            #items{
+                position: relative;
+                list-style: none;
+                list-style-type: none;
+                margin: 0;
+                min-height: 150px;
+                padding: 0;
+               
+            }
+            
+             .item{
+                position: absolute;
+                min-height: 200px;
+                float: left;
+                margin-right: 1px;
+              
+            
+                .sliderImg{
+                    max-width: 130px;
+                    
+                    margin-left: 20%;
+                    min-height: 200px;
+                }
+                .info{
+                    display: inline-block;
+                    color: grey;
+                    font-weight: bold;
+                    line-height: 20px!important;
+                    max-width: 50px;
+                }
+                .button{
+                    position: relative;
+                    top: 37px;
+                    right: 52px;
+                    background: #3DC395;
+                    border: none;
+                    color: white;
+                    border-radius: 3px;
+                    cursor: pointer;
+                  
+                }
+            }
+            
+        .btnPrevious{
+            font-size: 30px;
+            text-decoration-line: none;
+            position: absolute;
+            top: 610px;
+            left: 50px;
+            z-index: 99;
+            color: lightgrey;
+            cursor: pointer;
+        }
+        
+        .btnNext{
+            color: lightgrey;
+             font-size: 30px;
+            text-decoration-line: none;
+             position: absolute;
+             right: 50px;
+             top: 610px;
+            z-index: 99;
+            cursor: pointer;
+        }
+
+         
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>> section3
+    .section3{
+        border-right: 3px solid #3AC2B3;
+        width: 100%;
+        padding-bottom: 1px;
+        .maxWid{
+            width: 100%;
+            height: 55px;
+           background: #3ABFB3;
+           padding-top: 7px;
+        .product{
+            color:white;
+            font-size: 25px;
+            margin-left: 8%;
+            
+        }
+           
+        }
+        .items{
+            margin: 0 auto;
+            max-width: 1140px;
+            // height: 300px;       
+            margin-bottom: 30px;
+            margin-top: 40px;
+            .item{
+                max-width: 200px;
+                height: 100%;
+                border: 1px solid;
+                display: inline-flex;
+            }
+            .autoSize{
+                 height: 300px;
+            .box{
+                width: 90%;
+                height: 90%;
+                border: 1.5px solid #EDEDED;
+                border-bottom: 4px solid #5ECAA5;
+                margin-left: 5%;
+                margin-top: 5%;
+               
+              
+                    .top{
+            width: 100%;
+            height: 65%;
+                    
+        .img{
+            width: 60%;
+            height: 80%;
+            margin-left: 13%;
+        }
+            }
+        .bottom{
+            width: 100%;
+            height: 35%;
+          
+            
+            text-align: center;
+            overflow: hidden;
+        .info{
+            font-weight: bold;
+            color: #B3B3B3;
+            font-size: 100%;
+        }
+        .button{
+            color: white;
+            background: #3CC395;
+            border: none;
+            border-radius: 3px;
+            letter-spacing: -1px;
+          
+        }
+            
+        }
+            
+        }
+    }
+        }
+
+}
+
+    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>> section4.
+            .section4{
+                width: 100%;
+                background: #3CC3B5;
+              
+                    .items{
+                        margin: 0 auto;
+                        max-width: 1200px;
+                       
+                    
+                    .autoSize{
+                        margin-top:40px;
+                        min-height: 300px;
+                        color: white;
+                        padding: 0px;
+                        margin-left: 5%;
+                            .title{
+                              
+                               letter-spacing: 0px;     
+                            }
+                            .info{
+                                margin-bottom: 3px;
+                            }
+                    }
+                }
+            }
+
+
+            
+}
